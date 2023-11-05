@@ -1,9 +1,6 @@
-import os
 from pathlib import Path
 import torch
-import re
 import random
-import transformers,datasets
 from tokenizers import BertWordPieceTokenizer
 from transformers import BertTokenizer
 import tqdm
